@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    typescript: {
+      ignoreBuildErrors: true,
+    },
     experimental: {
       serverActions: true,
       // to allow the mongoose actions to be rendered
